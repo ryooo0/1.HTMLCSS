@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-image {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.header-text {
+  color: rgb(160, 157, 157);
+  padding: 20px 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.blog {
+  padding-top: 20px;
+  width: 840px;
+  margin: 0 auto;
+}
+
+.blog-item {
+  border-bottom: 1px solid rgb(160, 157, 157);
+}
+
+.blog-image {
+  padding-top: 30px;
+}
+
+.blog-text {
+  padding-bottom: 30px;
+  font-size: 10px;
+  color: rgb(160, 157, 157);
+}
+
+footer {
+  height: 50px;
+}
